@@ -22,7 +22,8 @@ body {
     url(https://user-images.githubusercontent.com/74077573/109255832-be992380-77c2-11eb-96c9-0a8e6f431691.png);
 }
 
-.calc-button {
+.calc-button,
+.calc-button-num {
   box-shadow: 3px 3px 5px black;
   width: 35px;
   height: 28px;
