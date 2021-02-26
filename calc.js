@@ -6,23 +6,6 @@ class Calculator {
     this.array2 = [];
     this.operator;
   }
-  convertNum(array) {
-    return Number(array.join(""));
-  }
-  add() {
-    return (this.currNum += num);
-  }
-  subtract() {
-    return (this.currNum -= num);
-  }
-
-  multiply() {
-    return (this.currNum *= num);
-  }
-
-  divide() {
-    return (this.currNum /= num);
-  }
   clear() {
     this.array = [];
     this.array2 = [];
