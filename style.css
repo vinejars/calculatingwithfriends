@@ -1,11 +1,16 @@
 #calculator {
   height: 500px;
   width: 300px;
-  background-image: linear-gradient(#c9eaf0, #94bfbe, #8b8b8b);
+  background-image: linear-gradient(to right, #c9eaf0, #94bfbe, #8b8b8b);
   margin: auto;
   box-shadow: 5px 5px 10px black, 5px 5px 10px black;
 }
 
 body {
-  background-image: url(https://user-images.githubusercontent.com/74077573/109255832-be992380-77c2-11eb-96c9-0a8e6f431691.png);
+  background-image: linear-gradient(
+      to bottom,
+      rgba(255, 231, 124, 0.52),
+      rgba(117, 19, 93, 0.73)
+    ),
+    url(https://user-images.githubusercontent.com/74077573/109255832-be992380-77c2-11eb-96c9-0a8e6f431691.png);
 }
